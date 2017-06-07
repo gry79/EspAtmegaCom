@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map For Keyboard
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EspAtmegaCom	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+send	KEYWORD2
+loop	KEYWORD2
+setCallback	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
