@@ -31,7 +31,11 @@ int EspAtmegaCom::available() {
 }
 
 void EspAtmegaCom::begin() {
-	_serial->begin(115200);
+	begin(115200);
+}
+
+void EspAtmegaCom::begin(long baud) {
+	_serial->begin(baud);
 	while (!_serial) {
 		// wait serial port initialization
 	}

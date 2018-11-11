@@ -24,6 +24,7 @@ class EspAtmegaCom {
 	EspAtmegaCom(HardwareSerial&);
 	EspAtmegaCom(HardwareSerial&,EAC_CALLBACK_SIGNATURE);
 	void begin();
+	void begin(long);
 	void send(String);
 	void loop();
 	void setCallback(EAC_CALLBACK_SIGNATURE);
